@@ -1,0 +1,11 @@
+.text-magnifier {
+    cursor: pointer;
+    color: #1979c3;
+    transition: all 0.2s ease;
+}
+
+.text-magnifier.magnified {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #e02b27;
+}
